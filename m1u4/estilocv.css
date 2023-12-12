@@ -1,0 +1,63 @@
+body{
+    background-color: lightgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.tamanoimg{
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    border: 3px solid black;
+}
+
+h1{ 
+    text-align: center;
+    background-color: greenyellow;
+    color: green;
+    text-transform: uppercase;
+}
+
+p,li{
+    color: darkgreen;
+    font-size: 20px;
+}
+
+h3,h4{
+    color: rgb(1, 51, 1);
+    text-decoration-line: underline;
+    font-size: 22px;
+}
+
+h5{ 
+    background-color: greenyellow;
+    color: green;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.series{
+    padding: 10px;
+    background-color: greenyellow;
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;    
+}
+
+.pelicula{ 
+    padding: 10px;
+    background-color: greenyellow;
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+}
+
+#perfil{
+    padding: 10px;
+    background-color: greenyellow;
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+}
