@@ -1,14 +1,20 @@
 body{
     background-color: lightgreen;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Raleway', sans-serif;  
+
 }
 
-
+.fa-solid fa-file{
+    color: green;
+}
 .tamanoimg{
-    width: 250px;
+    margin-left: 60px;
+    width: 150px;
     height: 150px;
-    border-radius: 30px;
+    border-radius: 100px;
     border: 3px solid black;
+    box-shadow: 0 0 10px black;
+
 }
 
 h1{ 
@@ -16,6 +22,10 @@ h1{
     background-color: greenyellow;
     color: green;
     text-transform: uppercase;
+    background: linear-gradient(45deg, #c9de96 0%,#8ab66b 44%,#398235 100%);
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px green;
 }
 
 p,li{
@@ -30,34 +40,55 @@ h3,h4{
 }
 
 h5{ 
-    background-color: greenyellow;
+    background: linear-gradient(45deg,  #a9db80 14%,#a9db80 38%,#96c56f 64%);
     color: green;
     font-size: 16px;
     border: 1px solid black;
     border-radius: 15px;
     text-align: center;
+    box-shadow: 0 0 3px black;
 }
 
 .series{
+    margin-top: 10px;
     padding: 10px;
-    background-color: greenyellow;
     width: 300px;
     height: 300px;
     border: 3px solid black;    
+    border-radius: 0px 50px 50px;
+    background: linear-gradient(45deg,  #a9db80 14%,#a9db80 38%,#96c56f 64%);
+    box-shadow: -5px 0 10px black
 }
 
 .pelicula{ 
+    margin-top: 10px;
     padding: 10px;
-    background-color: greenyellow;
     width: 300px;
     height: 300px;
-    border: 3px solid black;
+    border: 3px solid black;    
+    border-radius: 0px 50px 50px;
+    background: linear-gradient(45deg,  #a9db80 14%,#a9db80 38%,#96c56f 64%);
+    box-shadow: 5px 0 10px black
 }
 
 #perfil{
+    margin-top: 10px;
     padding: 10px;
-    background-color: greenyellow;
     width: 300px;
     height: 300px;
-    border: 3px solid black;
+    border: 3px solid black;    
+    border-radius: 0px 50px 50px;
+    background: linear-gradient(45deg,  #a9db80 14%,#a9db80 38%,#96c56f 64%);
+    box-shadow: -5px 0 10px black
+}
+
+.edad{
+    margin-top: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;    
+    border-radius: 0px 50px 50px;
+    background: linear-gradient(45deg,  #a9db80 14%,#a9db80 38%,#96c56f 64%);
+    box-shadow: 5px 0 10px black
 }
