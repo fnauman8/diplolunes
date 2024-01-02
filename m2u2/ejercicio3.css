@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.caja{
+ display: inline-flex;
+ 
+ width:  1000px;
+ height: 150px;
+ 
+ border: 3px solid black;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    color: white;   
+}
+
+.item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    color: white;
+}
+
+.item3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    color: white;
+}
