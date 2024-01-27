@@ -210,6 +210,7 @@ main div img{
 display: flex;
 flex-wrap: wrap;
 justify-content: flex-start;
+margin-bottom: 15px;
 }
 
 .galeria img{
