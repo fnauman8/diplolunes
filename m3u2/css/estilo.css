@@ -1,0 +1,308 @@
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header{
+    background-color: rgb(8, 141, 25);
+    padding: 16px;
+}
+
+header h1{
+    color: rgba(255, 255, 0, 0.774);
+    font-size: 35px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    margin-left: 10px;
+}
+
+header img{
+    border-radius: 50px;
+    box-shadow: 0 0 10px black;    
+}
+
+nav{
+    background-color: rgb(122, 214, 135);
+    margin-bottom: 20px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    flex-grow: 1;
+}
+
+nav ul li a{ 
+    color: rgb(255, 255, 0);
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover{
+    background-color: rgba(8, 141, 26, 0.356);
+}
+
+footer{
+    background-color: rgba(23, 255, 54, 0.356);
+    color: rgb(6, 104, 19);
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul li a.activo{
+    background-color: rgba(8, 141, 26, 0.356);
+}
+
+.holder{
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+h2{
+    color: rgb(8, 141, 25);
+    font-weight: 400;
+}
+
+/*inicio de home*/
+
+main div img{
+    height: 250px;
+    width: 100%;  
+}
+
+.bienvenidos{
+    width: 65%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.testimonios{
+    width: 35%;
+}
+
+.columna{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bienvenidos p{
+    font-size: 20px;
+}
+
+.testimonio{
+    background-color: #ccc;
+    padding: 16px;
+}
+
+.testimonio .cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+}
+
+.testimonio .autor{
+    font-size: 16px;
+    text-align: left;
+    display: block;
+    margin: 12px 0;
+}
+
+/*fin de home*/
+
+/*inicio nosotros*/
+.pnosotros{
+    font-size: 12px;
+}
+
+.persona{
+    width: 18%;
+    border: 1px solid green;
+    box-shadow: 0 0 2px black;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+.persona img{   
+    max-height: 80px;
+    max-width: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px green;    
+}
+
+.personas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona h5, .persona h6{
+    margin: 0;
+    color: rgb(6, 104, 19) ;
+}
+
+.persona p{
+    font-size: 10px;
+    color: rgba(9, 48, 14, 0.993);
+}
+/*fin nosotros*/
+
+/*I servivios*/
+
+.servicio{
+    
+    border-radius: 5px;
+    box-shadow: 0 0 3px black;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.servicio img{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px black;    
+}
+
+.servicio .info h4{
+    font-size: 22px;
+    color: rgb(6, 104, 19);
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.servicio .info p{
+    font-size: 13px;
+    font-style: italic;
+}
+
+.servicio:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+
+/*F servicios*/
+
+/*i galeria*/
+
+.galeria{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+}
+
+.galeria img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid grey;
+    padding: 3px;
+    margin: 5px;
+    box-sizing: border-box;    
+}
+
+/*f galeria*/
+
+/*i novedades*/
+
+.novedades p{
+    border-bottom: 1px solid gray;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+.novedades h3{
+    font-size: 20px;
+    color: rgb(6, 104, 19) ;
+    padding-top: 10px;
+}
+
+.novedades h4{
+    font-size: 15px;
+    color: rgb(6, 104, 19) ;
+}
+
+/*f novedades*/
+
+/*i contacto*/
+
+.contacto{
+    display: flex;
+    gap: 24px
+}
+
+.contacto div{
+    width: 100%;
+}
+
+
+.datos p{
+    color: rgb(8, 141, 25);
+    font-size: 14px;
+}
+
+.datos ul li{
+    font-size: 13px;
+    color: rgb(8, 141, 25);
+}
+
+.formulario p{
+    display: flex;
+    color: rgb(8, 141, 25) ;
+}
+
+.formulario p label{
+    min-width: 80px;
+    display: flex;
+    align-items: start;
+}
+
+
+.formulario textarea{
+    resize: none;
+    height: 150px;
+}
+
+.formulario input, textarea{
+    background-color: rgba(23, 255, 54, 0.356);
+    border-radius: 5px;
+    border: 1px solid grey;
+    width: 70%;
+}
+
+.formulario input[type="submit"]{
+    background: rgb(122, 214, 135);
+    box-shadow: 0 0 10px black;
+    color: rgb(255, 255, 0) ;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover{
+    background-color:  rgba(8, 141, 26, 0.623) ;
+}
+/*f contacto*/
