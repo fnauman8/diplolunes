@@ -14,8 +14,11 @@
         array.push(prompt("ingrese numero " + x + "/" + c));
         //función push la busque en internet
       }
+      array.sort((a, b) => {
+        return b - a;
+      });
 
-      console.log(array);
+      document.write("El mayor elemento es: " + array[0]);
     </script>
   </body>
 </html>
