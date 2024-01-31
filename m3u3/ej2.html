@@ -10,8 +10,8 @@
       const c = [prompt("ingrese la cantidad de elementros a discriminar")];
       let array = [];
 
-      for (x = 1; x <= c; x++) {
-        array.push(prompt("ingrese numero " + x + "/" + c));
+      for (x = 0; x <= c - 1; x++) {
+        array.push(prompt("ingrese numero " + (x + 1) + "/" + c));
         //función push la busque en internet
       }
 
