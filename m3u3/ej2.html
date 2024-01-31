@@ -10,16 +10,12 @@
       const c = [prompt("ingrese la cantidad de elementros a discriminar")];
       let array = [];
 
-      for (x = 0; x <= c - 1; x++) {
-        array.push(prompt("ingrese numero " + (x + 1) + "/" + c));
+      for (x = 1; x <= c; x++) {
+        array.push(prompt("ingrese numero " + x + "/" + c));
         //función push la busque en internet
       }
 
-      array.sort();
-      array.reverse();
-      //funciones sort y reverse las busque en internet
-
-      document.write("El elemento mayor es: " + array[0]);
+      console.log(array);
     </script>
   </body>
 </html>
