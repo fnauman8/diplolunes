@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EJERCICIO 1</title>
+  </head>
+  <body>
+    <script>
+      const distancia = prompt("Ingrese distancia en metros");
+      //document.write(distancia);
+
+      if (distancia >= 0 && distancia < 1000) {
+        document.write(distancia + " metros, ir a pie");
+      } else if (distancia >= 1000 && distancia < 10000) {
+        document.write(distancia + " metros, ir en bicicleta");
+      } else if (distancia >= 10000 && distancia < 30000) {
+        document.write(distancia + " metros, ir en colectivo");
+      } else if (distancia >= 30000 && distancia < 100000) {
+        document.write(distancia + " metros, ir en auto");
+      } else document.write(distancia + " metros, ir en avion");
+    </script>
+  </body>
+</html>
