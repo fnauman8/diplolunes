@@ -11,6 +11,7 @@ import NovedadesPage from './pages/NovedadesPage';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
+
 function App() {
   return (
     <div className="App">

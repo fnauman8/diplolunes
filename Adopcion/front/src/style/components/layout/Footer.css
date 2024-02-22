@@ -1,0 +1,17 @@
+footer{
+    background-color: rgba(23, 255, 54, 0.356);
+    color: rgb(6, 104, 19);
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  nav ul li a.activo{
+    background-color: rgba(8, 141, 26, 0.356);
+  }
+  
+
+  
+  h2{
+    color: rgb(8, 141, 25);
+    font-weight: 400;
+  }

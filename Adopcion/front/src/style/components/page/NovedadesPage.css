@@ -1,0 +1,20 @@
+/*i novedades*/
+
+.novedades p{
+    border-bottom: 1px solid gray;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+.novedades h3{
+    font-size: 20px;
+    color: rgb(6, 104, 19) ;
+    padding-top: 10px;
+}
+
+.novedades h4{
+    font-size: 15px;
+    color: rgb(6, 104, 19) ;
+}
+
+/*f novedades*/

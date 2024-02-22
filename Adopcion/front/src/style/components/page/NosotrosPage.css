@@ -1,0 +1,39 @@
+/*inicio nosotros*/
+.pnosotros{
+    font-size: 12px;
+}
+
+.persona{
+    width: 18%;
+    border: 1px solid green;
+    box-shadow: 0 0 2px black;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+.persona img{   
+    max-height: 80px;
+    max-width: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px green;    
+}
+
+.personas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona h5, .persona h6{
+    margin: 0;
+    color: rgb(6, 104, 19) ;
+}
+
+.persona p{
+    font-size: 10px;
+    color: rgba(9, 48, 14, 0.993);
+}
+/*fin nosotros*/

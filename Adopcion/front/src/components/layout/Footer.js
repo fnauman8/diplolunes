@@ -1,9 +1,9 @@
 import React from "react";
-
+import '../../style/components/layout/Footer.css'
 const Footer = (props) =>{
     return (
         <footer>
-            <p>Derechos reservados</p>
+            <p>Diseñado por Federico Nauman - &copy;año</p>
         </footer>    
 
     );

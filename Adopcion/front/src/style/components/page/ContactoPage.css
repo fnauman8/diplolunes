@@ -1,0 +1,62 @@
+/*i contacto*/
+
+.contacto{
+    display: flex;
+    gap: 24px
+}
+
+.contacto div{
+    width: 100%;
+}
+
+
+.datos p{
+    color: rgb(8, 141, 25);
+    font-size: 14px;
+}
+
+.datos ul li{
+    font-size: 13px;
+    color: rgb(8, 141, 25);
+}
+
+.formulario p{
+    display: flex;
+    color: rgb(8, 141, 25) ;
+}
+
+.formulario p label{
+    min-width: 80px;
+    display: flex;
+    align-items: start;
+}
+
+
+.formulario textarea{
+    resize: none;
+    height: 150px;
+}
+
+.formulario input, textarea{
+    background-color: rgba(23, 255, 54, 0.356);
+    border-radius: 5px;
+    border: 1px solid grey;
+    width: 70%;
+}
+
+.formulario input[type="submit"]{
+    background: rgb(122, 214, 135);
+    box-shadow: 0 0 10px black;
+    color: rgb(255, 255, 0) ;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover{
+    background-color:  rgba(8, 141, 26, 0.623) ;
+}
+/*f contacto*/
